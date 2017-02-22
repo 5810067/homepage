@@ -1,16 +1,20 @@
 h1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    text-decoration: underline;
     font-family:  "Courier New",Lucida,Console;
     color: black;   
 }
 body {
-    background: url("images/cat_2.jpg");
+    background: url("images/cat_1.jpg");
+    background-size: cover;
     background-color: #cccccc;
     
 }
 ul {
-    top: 0px;
+    position: fixed;
+    width: 99%;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,6 +23,7 @@ ul {
 }
 
 li {
+    
     float: left;
 }
 
@@ -37,8 +42,25 @@ div.absolute {
     background-color: white;
     position: absolute;
     top: 80px;
-    right: 10;
+    left: 10px;
     width: 300px;
     height: 530px;
     border: 3px solid black;
 }
+
+p{
+    font-size: 25px;
+    text-indent: 20px;
+}
+a.app_list:link {
+    text-decoration: none;
+    color: blue;
+}
+a.app_list:visited {
+    color: hotpink;
+}
+a.app_list:active {
+    color: red;
+}
+a.app_list:hover {
+    background-color: #eff2f7;
